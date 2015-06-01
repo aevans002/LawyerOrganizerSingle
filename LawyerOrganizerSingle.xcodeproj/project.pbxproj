@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C317737C1B1C0BE5007D773D /* OrganizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C317737B1B1C0BE5007D773D /* OrganizerViewController.m */; };
 		C3DE25E11B1B76950036CCC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE25E01B1B76950036CCC9 /* main.m */; };
 		C3DE25E41B1B76950036CCC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE25E31B1B76950036CCC9 /* AppDelegate.m */; };
 		C3DE25E71B1B76950036CCC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE25E61B1B76950036CCC9 /* ViewController.m */; };
@@ -14,6 +15,9 @@
 		C3DE25EC1B1B76950036CCC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DE25EB1B1B76950036CCC9 /* Images.xcassets */; };
 		C3DE25EF1B1B76950036CCC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DE25ED1B1B76950036CCC9 /* LaunchScreen.xib */; };
 		C3DE25FB1B1B76950036CCC9 /* LawyerOrganizerSingleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE25FA1B1B76950036CCC9 /* LawyerOrganizerSingleTests.m */; };
+		C3DE26061B1B798C0036CCC9 /* ClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE26051B1B798C0036CCC9 /* ClientViewController.m */; };
+		C3DE260A1B1B92270036CCC9 /* ClientList.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE26091B1B92270036CCC9 /* ClientList.m */; };
+		C3DE260E1B1B92A20036CCC9 /* ClientSvcCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE260D1B1B92A20036CCC9 /* ClientSvcCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C317737A1B1C0BE5007D773D /* OrganizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrganizerViewController.h; sourceTree = "<group>"; };
+		C317737B1B1C0BE5007D773D /* OrganizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrganizerViewController.m; sourceTree = "<group>"; };
 		C3DE25DB1B1B76950036CCC9 /* LawyerOrganizerSingle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LawyerOrganizerSingle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DE25DF1B1B76950036CCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3DE25E01B1B76950036CCC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,13 @@
 		C3DE25F41B1B76950036CCC9 /* LawyerOrganizerSingleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LawyerOrganizerSingleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DE25F91B1B76950036CCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3DE25FA1B1B76950036CCC9 /* LawyerOrganizerSingleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LawyerOrganizerSingleTests.m; sourceTree = "<group>"; };
+		C3DE26041B1B798C0036CCC9 /* ClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientViewController.h; sourceTree = "<group>"; };
+		C3DE26051B1B798C0036CCC9 /* ClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientViewController.m; sourceTree = "<group>"; };
+		C3DE26081B1B92270036CCC9 /* ClientList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientList.h; sourceTree = "<group>"; };
+		C3DE26091B1B92270036CCC9 /* ClientList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientList.m; sourceTree = "<group>"; };
+		C3DE260B1B1B925A0036CCC9 /* ClientListSvc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientListSvc.h; sourceTree = "<group>"; };
+		C3DE260C1B1B92A20036CCC9 /* ClientSvcCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientSvcCache.h; sourceTree = "<group>"; };
+		C3DE260D1B1B92A20036CCC9 /* ClientSvcCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientSvcCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +94,16 @@
 		C3DE25DD1B1B76950036CCC9 /* LawyerOrganizerSingle */ = {
 			isa = PBXGroup;
 			children = (
+				C3DE26071B1B91660036CCC9 /* Model */,
 				C3DE25E21B1B76950036CCC9 /* AppDelegate.h */,
 				C3DE25E31B1B76950036CCC9 /* AppDelegate.m */,
 				C3DE25E51B1B76950036CCC9 /* ViewController.h */,
 				C3DE25E61B1B76950036CCC9 /* ViewController.m */,
 				C3DE25E81B1B76950036CCC9 /* Main.storyboard */,
+				C3DE26041B1B798C0036CCC9 /* ClientViewController.h */,
+				C3DE26051B1B798C0036CCC9 /* ClientViewController.m */,
+				C317737A1B1C0BE5007D773D /* OrganizerViewController.h */,
+				C317737B1B1C0BE5007D773D /* OrganizerViewController.m */,
 				C3DE25EB1B1B76950036CCC9 /* Images.xcassets */,
 				C3DE25ED1B1B76950036CCC9 /* LaunchScreen.xib */,
 				C3DE25DE1B1B76950036CCC9 /* Supporting Files */,
@@ -117,6 +135,18 @@
 				C3DE25F91B1B76950036CCC9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3DE26071B1B91660036CCC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3DE26081B1B92270036CCC9 /* ClientList.h */,
+				C3DE26091B1B92270036CCC9 /* ClientList.m */,
+				C3DE260B1B1B925A0036CCC9 /* ClientListSvc.h */,
+				C3DE260C1B1B92A20036CCC9 /* ClientSvcCache.h */,
+				C3DE260D1B1B92A20036CCC9 /* ClientSvcCache.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +249,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DE260E1B1B92A20036CCC9 /* ClientSvcCache.m in Sources */,
+				C317737C1B1C0BE5007D773D /* OrganizerViewController.m in Sources */,
 				C3DE25E71B1B76950036CCC9 /* ViewController.m in Sources */,
 				C3DE25E41B1B76950036CCC9 /* AppDelegate.m in Sources */,
 				C3DE25E11B1B76950036CCC9 /* main.m in Sources */,
+				C3DE26061B1B798C0036CCC9 /* ClientViewController.m in Sources */,
+				C3DE260A1B1B92270036CCC9 /* ClientList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +450,7 @@
 				C3DE26001B1B76950036CCC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3DE26011B1B76950036CCC9 /* Build configuration list for PBXNativeTarget "LawyerOrganizerSingleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +459,7 @@
 				C3DE26031B1B76950036CCC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ClientViewController.h"
+#import "OrganizerViewController.h"
 
 @interface ViewController : UIViewController
 
