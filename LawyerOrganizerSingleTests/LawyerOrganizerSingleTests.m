@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "ClientList.h"
+#import "ClientSvcArchive.h"
 
 @interface LawyerOrganizerSingleTests : XCTestCase
 
@@ -35,6 +37,26 @@
     [self measureBlock:^{
         // Put the code you want to measure the time of here.
     }];
+}
+
+- (void)testClientSvcArchive
+{
+    NSLog(@"Starting Test");
+    ClientSvcArchive *clientSvc = [[ClientSvcArchive alloc]init];
+    
+    ClientList *client = [[ClientList alloc] init];
+    client.name = @"Bob";
+    client.caseName = @"Derp";
+    client.address = @"Here";
+    client.startDate = @"Now";
+    client.summary = @"It Happened";
+    
+    [clientSvc createClient:(ClientList *) client];
+    int count = [[clientSvc retrievalAllClients] count];
+    
+    NSLog(@" Count %i", count);
+    NSLog(@" End Test");
+    
 }
 
 @end

@@ -85,6 +85,9 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Mor-aW-nXT">
                                 <rect key="frame" x="0.0" y="264" width="320" height="284"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="FyP-yC-vhi" id="1pi-cc-8r7"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -192,6 +195,10 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="f0O-Xb-Jhz">
                                 <rect key="frame" x="0.0" y="343" width="320" height="233"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="M9m-iR-jwc" id="FHK-kM-blI"/>
+                                    <outlet property="delegate" destination="M9m-iR-jwc" id="f8B-DM-JOk"/>
+                                </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="heL-wu-ggv">
                                 <rect key="frame" x="20" y="295" width="30" height="30"/>
@@ -217,10 +224,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FxP-PO-LEs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="76" y="53"/>
+            <point key="canvasLocation" x="68" y="53"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="C4A-YL-VMk"/>
+        <segue reference="grN-Yz-7BM"/>
     </inferredMetricsTieBreakers>
 </document>

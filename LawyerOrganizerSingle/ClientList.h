@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ClientList : NSObject
+@interface ClientList : NSObject <NSCoding>
 
 @property (nonatomic) NSString *name;
 @property (nonatomic) NSString *caseName;

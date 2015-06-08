@@ -9,7 +9,8 @@
 #import "ClientViewController.h"
 #import "ViewController.h"
 #import "ClientList.h"
-#import "ClientSvcCache.h"
+//#import "ClientSvcCache.h"
+#import "ClientSvcArchive.h"
 
 
 @interface ClientViewController ()
@@ -18,12 +19,13 @@
 
 @implementation ClientViewController
 
-ClientSvcCache *clientSvc = nil;
-
+//ClientSvcCache *clientSvc = nil;
+ClientSvcArchive *clientSvc = nil;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    clientSvc = [[ClientSvcCache alloc]init];
+    //clientSvc = [[ClientSvcCache alloc]init];
+    clientSvc = [[ClientSvcArchive alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {
