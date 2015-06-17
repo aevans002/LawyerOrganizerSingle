@@ -10,6 +10,7 @@
 
 @interface ClientList : NSObject <NSCoding>
 
+@property (nonatomic) int       id;
 @property (nonatomic) NSString *name;
 @property (nonatomic) NSString *caseName;
 @property (nonatomic) NSString *address;

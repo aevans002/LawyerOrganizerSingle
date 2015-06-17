@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		C317737C1B1C0BE5007D773D /* OrganizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C317737B1B1C0BE5007D773D /* OrganizerViewController.m */; };
 		C317737F1B252030007D773D /* ClientSvcArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = C317737E1B252030007D773D /* ClientSvcArchive.m */; };
+		C31773871B2E02A9007D773D /* ClientSvcCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = C31773861B2E02A9007D773D /* ClientSvcCoreData.m */; };
+		C31773891B2E04D8007D773D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31773881B2E04D8007D773D /* CoreData.framework */; };
+		C317738B1B2E06E6007D773D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C317738A1B2E06E6007D773D /* libsqlite3.dylib */; };
+		C317738D1B2E06FD007D773D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C317738C1B2E06FD007D773D /* UIKit.framework */; };
+		C317738F1B2E070D007D773D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C317738E1B2E070D007D773D /* Foundation.framework */; };
+		C31773921B2E075E007D773D /* ClientSvcSQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = C31773911B2E075E007D773D /* ClientSvcSQLite.m */; };
+		C31773941B2E352D007D773D /* SQLiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31773931B2E352D007D773D /* SQLiteTests.m */; };
 		C3DE25E11B1B76950036CCC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE25E01B1B76950036CCC9 /* main.m */; };
 		C3DE25E41B1B76950036CCC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE25E31B1B76950036CCC9 /* AppDelegate.m */; };
 		C3DE25E71B1B76950036CCC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE25E61B1B76950036CCC9 /* ViewController.m */; };
@@ -38,6 +45,15 @@
 		C317737E1B252030007D773D /* ClientSvcArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientSvcArchive.m; sourceTree = "<group>"; };
 		C31773811B253444007D773D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C31773831B253457007D773D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C31773851B2E02A9007D773D /* ClientSvcCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientSvcCoreData.h; sourceTree = "<group>"; };
+		C31773861B2E02A9007D773D /* ClientSvcCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientSvcCoreData.m; sourceTree = "<group>"; };
+		C31773881B2E04D8007D773D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C317738A1B2E06E6007D773D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C317738C1B2E06FD007D773D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C317738E1B2E070D007D773D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C31773901B2E075E007D773D /* ClientSvcSQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientSvcSQLite.h; sourceTree = "<group>"; };
+		C31773911B2E075E007D773D /* ClientSvcSQLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientSvcSQLite.m; sourceTree = "<group>"; };
+		C31773931B2E352D007D773D /* SQLiteTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteTests.m; sourceTree = "<group>"; };
 		C3DE25DB1B1B76950036CCC9 /* LawyerOrganizerSingle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LawyerOrganizerSingle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DE25DF1B1B76950036CCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3DE25E01B1B76950036CCC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -65,6 +81,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C317738F1B2E070D007D773D /* Foundation.framework in Frameworks */,
+				C317738D1B2E06FD007D773D /* UIKit.framework in Frameworks */,
+				C317738B1B2E06E6007D773D /* libsqlite3.dylib in Frameworks */,
+				C31773891B2E04D8007D773D /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,10 @@
 		C3DE25D21B1B76950036CCC9 = {
 			isa = PBXGroup;
 			children = (
+				C317738E1B2E070D007D773D /* Foundation.framework */,
+				C317738C1B2E06FD007D773D /* UIKit.framework */,
+				C317738A1B2E06E6007D773D /* libsqlite3.dylib */,
+				C31773881B2E04D8007D773D /* CoreData.framework */,
 				C31773831B253457007D773D /* CoreLocation.framework */,
 				C31773811B253444007D773D /* AVFoundation.framework */,
 				C3DE25DD1B1B76950036CCC9 /* LawyerOrganizerSingle */,
@@ -131,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				C3DE25FA1B1B76950036CCC9 /* LawyerOrganizerSingleTests.m */,
+				C31773931B2E352D007D773D /* SQLiteTests.m */,
 				C3DE25F81B1B76950036CCC9 /* Supporting Files */,
 			);
 			path = LawyerOrganizerSingleTests;
@@ -154,6 +179,10 @@
 				C317737E1B252030007D773D /* ClientSvcArchive.m */,
 				C3DE260C1B1B92A20036CCC9 /* ClientSvcCache.h */,
 				C3DE260D1B1B92A20036CCC9 /* ClientSvcCache.m */,
+				C31773851B2E02A9007D773D /* ClientSvcCoreData.h */,
+				C31773861B2E02A9007D773D /* ClientSvcCoreData.m */,
+				C31773901B2E075E007D773D /* ClientSvcSQLite.h */,
+				C31773911B2E075E007D773D /* ClientSvcSQLite.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -259,12 +288,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3DE260E1B1B92A20036CCC9 /* ClientSvcCache.m in Sources */,
+				C31773921B2E075E007D773D /* ClientSvcSQLite.m in Sources */,
 				C317737C1B1C0BE5007D773D /* OrganizerViewController.m in Sources */,
 				C317737F1B252030007D773D /* ClientSvcArchive.m in Sources */,
 				C3DE25E71B1B76950036CCC9 /* ViewController.m in Sources */,
 				C3DE25E41B1B76950036CCC9 /* AppDelegate.m in Sources */,
 				C3DE25E11B1B76950036CCC9 /* main.m in Sources */,
 				C3DE26061B1B798C0036CCC9 /* ClientViewController.m in Sources */,
+				C31773871B2E02A9007D773D /* ClientSvcCoreData.m in Sources */,
 				C3DE260A1B1B92270036CCC9 /* ClientList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3DE25FB1B1B76950036CCC9 /* LawyerOrganizerSingleTests.m in Sources */,
+				C31773941B2E352D007D773D /* SQLiteTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
