@@ -8,24 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		C317737C1B1C0BE5007D773D /* OrganizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C317737B1B1C0BE5007D773D /* OrganizerViewController.m */; };
-		C317737F1B252030007D773D /* ClientSvcArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = C317737E1B252030007D773D /* ClientSvcArchive.m */; };
 		C31773871B2E02A9007D773D /* ClientSvcCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = C31773861B2E02A9007D773D /* ClientSvcCoreData.m */; };
 		C31773891B2E04D8007D773D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31773881B2E04D8007D773D /* CoreData.framework */; };
 		C317738B1B2E06E6007D773D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C317738A1B2E06E6007D773D /* libsqlite3.dylib */; };
 		C317738D1B2E06FD007D773D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C317738C1B2E06FD007D773D /* UIKit.framework */; };
 		C317738F1B2E070D007D773D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C317738E1B2E070D007D773D /* Foundation.framework */; };
-		C31773921B2E075E007D773D /* ClientSvcSQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = C31773911B2E075E007D773D /* ClientSvcSQLite.m */; };
-		C31773941B2E352D007D773D /* SQLiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31773931B2E352D007D773D /* SQLiteTests.m */; };
+		C317739A1B35DB85007D773D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C31773981B35DB85007D773D /* Model.xcdatamodeld */; };
+		C37717F91B373C8300EB4761 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = C37717F81B373C8300EB4761 /* Client.m */; };
+		C3C8C8041B37A0F1002BFEDB /* ClientList.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C8C8031B37A0F1002BFEDB /* ClientList.m */; };
 		C3DE25E11B1B76950036CCC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE25E01B1B76950036CCC9 /* main.m */; };
 		C3DE25E41B1B76950036CCC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE25E31B1B76950036CCC9 /* AppDelegate.m */; };
 		C3DE25E71B1B76950036CCC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE25E61B1B76950036CCC9 /* ViewController.m */; };
 		C3DE25EA1B1B76950036CCC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DE25E81B1B76950036CCC9 /* Main.storyboard */; };
 		C3DE25EC1B1B76950036CCC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DE25EB1B1B76950036CCC9 /* Images.xcassets */; };
 		C3DE25EF1B1B76950036CCC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DE25ED1B1B76950036CCC9 /* LaunchScreen.xib */; };
-		C3DE25FB1B1B76950036CCC9 /* LawyerOrganizerSingleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE25FA1B1B76950036CCC9 /* LawyerOrganizerSingleTests.m */; };
 		C3DE26061B1B798C0036CCC9 /* ClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE26051B1B798C0036CCC9 /* ClientViewController.m */; };
-		C3DE260A1B1B92270036CCC9 /* ClientList.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE26091B1B92270036CCC9 /* ClientList.m */; };
-		C3DE260E1B1B92A20036CCC9 /* ClientSvcCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE260D1B1B92A20036CCC9 /* ClientSvcCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +38,6 @@
 /* Begin PBXFileReference section */
 		C317737A1B1C0BE5007D773D /* OrganizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrganizerViewController.h; sourceTree = "<group>"; };
 		C317737B1B1C0BE5007D773D /* OrganizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrganizerViewController.m; sourceTree = "<group>"; };
-		C317737D1B252030007D773D /* ClientSvcArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientSvcArchive.h; sourceTree = "<group>"; };
-		C317737E1B252030007D773D /* ClientSvcArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientSvcArchive.m; sourceTree = "<group>"; };
 		C31773811B253444007D773D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C31773831B253457007D773D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C31773851B2E02A9007D773D /* ClientSvcCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientSvcCoreData.h; sourceTree = "<group>"; };
@@ -51,9 +46,12 @@
 		C317738A1B2E06E6007D773D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		C317738C1B2E06FD007D773D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C317738E1B2E070D007D773D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C31773901B2E075E007D773D /* ClientSvcSQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientSvcSQLite.h; sourceTree = "<group>"; };
-		C31773911B2E075E007D773D /* ClientSvcSQLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientSvcSQLite.m; sourceTree = "<group>"; };
-		C31773931B2E352D007D773D /* SQLiteTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteTests.m; sourceTree = "<group>"; };
+		C31773971B35D90A007D773D /* LawyerOrganizerSingle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LawyerOrganizerSingle-Prefix.pch"; sourceTree = "<group>"; };
+		C31773991B35DB85007D773D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		C37717F71B373C8300EB4761 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		C37717F81B373C8300EB4761 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		C3C8C8021B37A0E1002BFEDB /* ClientList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientList.h; sourceTree = "<group>"; };
+		C3C8C8031B37A0F1002BFEDB /* ClientList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientList.m; sourceTree = "<group>"; };
 		C3DE25DB1B1B76950036CCC9 /* LawyerOrganizerSingle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LawyerOrganizerSingle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DE25DF1B1B76950036CCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3DE25E01B1B76950036CCC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,14 +64,9 @@
 		C3DE25EE1B1B76950036CCC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C3DE25F41B1B76950036CCC9 /* LawyerOrganizerSingleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LawyerOrganizerSingleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DE25F91B1B76950036CCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3DE25FA1B1B76950036CCC9 /* LawyerOrganizerSingleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LawyerOrganizerSingleTests.m; sourceTree = "<group>"; };
 		C3DE26041B1B798C0036CCC9 /* ClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientViewController.h; sourceTree = "<group>"; };
 		C3DE26051B1B798C0036CCC9 /* ClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientViewController.m; sourceTree = "<group>"; };
-		C3DE26081B1B92270036CCC9 /* ClientList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientList.h; sourceTree = "<group>"; };
-		C3DE26091B1B92270036CCC9 /* ClientList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientList.m; sourceTree = "<group>"; };
 		C3DE260B1B1B925A0036CCC9 /* ClientListSvc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientListSvc.h; sourceTree = "<group>"; };
-		C3DE260C1B1B92A20036CCC9 /* ClientSvcCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientSvcCache.h; sourceTree = "<group>"; };
-		C3DE260D1B1B92A20036CCC9 /* ClientSvcCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientSvcCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +140,7 @@
 			children = (
 				C3DE25DF1B1B76950036CCC9 /* Info.plist */,
 				C3DE25E01B1B76950036CCC9 /* main.m */,
+				C31773971B35D90A007D773D /* LawyerOrganizerSingle-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,8 +148,6 @@
 		C3DE25F71B1B76950036CCC9 /* LawyerOrganizerSingleTests */ = {
 			isa = PBXGroup;
 			children = (
-				C3DE25FA1B1B76950036CCC9 /* LawyerOrganizerSingleTests.m */,
-				C31773931B2E352D007D773D /* SQLiteTests.m */,
 				C3DE25F81B1B76950036CCC9 /* Supporting Files */,
 			);
 			path = LawyerOrganizerSingleTests;
@@ -172,17 +164,14 @@
 		C3DE26071B1B91660036CCC9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C3DE26081B1B92270036CCC9 /* ClientList.h */,
-				C3DE26091B1B92270036CCC9 /* ClientList.m */,
+				C31773981B35DB85007D773D /* Model.xcdatamodeld */,
+				C3C8C8021B37A0E1002BFEDB /* ClientList.h */,
+				C3C8C8031B37A0F1002BFEDB /* ClientList.m */,
+				C37717F71B373C8300EB4761 /* Client.h */,
+				C37717F81B373C8300EB4761 /* Client.m */,
 				C3DE260B1B1B925A0036CCC9 /* ClientListSvc.h */,
-				C317737D1B252030007D773D /* ClientSvcArchive.h */,
-				C317737E1B252030007D773D /* ClientSvcArchive.m */,
-				C3DE260C1B1B92A20036CCC9 /* ClientSvcCache.h */,
-				C3DE260D1B1B92A20036CCC9 /* ClientSvcCache.m */,
 				C31773851B2E02A9007D773D /* ClientSvcCoreData.h */,
 				C31773861B2E02A9007D773D /* ClientSvcCoreData.m */,
-				C31773901B2E075E007D773D /* ClientSvcSQLite.h */,
-				C31773911B2E075E007D773D /* ClientSvcSQLite.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -287,16 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3DE260E1B1B92A20036CCC9 /* ClientSvcCache.m in Sources */,
-				C31773921B2E075E007D773D /* ClientSvcSQLite.m in Sources */,
 				C317737C1B1C0BE5007D773D /* OrganizerViewController.m in Sources */,
-				C317737F1B252030007D773D /* ClientSvcArchive.m in Sources */,
+				C3C8C8041B37A0F1002BFEDB /* ClientList.m in Sources */,
 				C3DE25E71B1B76950036CCC9 /* ViewController.m in Sources */,
+				C37717F91B373C8300EB4761 /* Client.m in Sources */,
 				C3DE25E41B1B76950036CCC9 /* AppDelegate.m in Sources */,
 				C3DE25E11B1B76950036CCC9 /* main.m in Sources */,
 				C3DE26061B1B798C0036CCC9 /* ClientViewController.m in Sources */,
 				C31773871B2E02A9007D773D /* ClientSvcCoreData.m in Sources */,
-				C3DE260A1B1B92270036CCC9 /* ClientList.m in Sources */,
+				C317739A1B35DB85007D773D /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,8 +292,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3DE25FB1B1B76950036CCC9 /* LawyerOrganizerSingleTests.m in Sources */,
-				C31773941B2E352D007D773D /* SQLiteTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +409,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LawyerOrganizerSingle/LawyerOrganizerSingle-Prefix.pch";
 				INFOPLIST_FILE = LawyerOrganizerSingle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,6 +422,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LawyerOrganizerSingle/LawyerOrganizerSingle-Prefix.pch";
 				INFOPLIST_FILE = LawyerOrganizerSingle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -504,6 +496,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C31773981B35DB85007D773D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C31773991B35DB85007D773D /* Model.xcdatamodel */,
+			);
+			currentVersion = C31773991B35DB85007D773D /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C3DE25D31B1B76950036CCC9 /* Project object */;
 }

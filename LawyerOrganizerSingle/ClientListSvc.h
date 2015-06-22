@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ClientList.h"
+#import "Client.h"
 
 @protocol ClientListSvc <NSObject>
 
-- (ClientList *) createClient: (ClientList *) client;
-- (NSMutableArray *) retrievalAllClients;
-- (ClientList *) updateClient: (ClientList *) client;
-- (ClientList *) deleteClient: (ClientList *) client;
+- (Client *) createClient: (Client *) client;
+- (NSArray *) retrievalAllClients;
+- (Client *) updateClient: (Client *) client;
+- (Client *) deleteClient: (Client *) client;
 
 @end

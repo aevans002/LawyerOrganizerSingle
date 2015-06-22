@@ -8,10 +8,13 @@
 
 #import "ClientViewController.h"
 #import "ViewController.h"
+#import "Client.h"
 #import "ClientList.h"
 //#import "ClientSvcCache.h"
 //#import "ClientSvcArchive.h"
-#import "ClientSvcSQLite.h"
+//#import "ClientSvcSQLite.h"
+#import "ClientSvcCoreData.h"
+
 
 
 @interface ClientViewController ()
@@ -22,13 +25,16 @@
 
 //ClientSvcCache *clientSvc = nil;
 //ClientSvcArchive *clientSvc = nil;
-ClientSvcSQLite *clientSvc = nil;
+//ClientSvcSQLite *clientSvc = nil;
+ClientSvcCoreData *clientSvc = nil;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     //clientSvc = [[ClientSvcCache alloc]init];
     //clientSvc = [[ClientSvcArchive alloc] init];
-    clientSvc = [[ClientSvcSQLite alloc] init];
+    //clientSvc = [[ClientSvcSQLite alloc] init];
+    clientSvc = [[ClientSvcCoreData alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -81,7 +87,7 @@ ClientSvcSQLite *clientSvc = nil;
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
     }
     
-    ClientList *client = [[clientSvc retrievalAllClients] objectAtIndex:indexPath.row];
+    Client *client = [[clientSvc retrievalAllClients] objectAtIndex:indexPath.row];
     cell.textLabel.text = client.name;
     return cell;
 }
